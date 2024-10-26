@@ -1,0 +1,6 @@
+to create 1ST_READ.BIN:
+- sh-elf-objcopy -R .stack -O binary main.elf 1ST_READ.BIN
+
+s_ - system module
+ 
+After creating the 1ST_READ.BIN, place it on /cd/ and use bootdreams to create a .cdi file
